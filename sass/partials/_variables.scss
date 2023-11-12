@@ -1,0 +1,45 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Satisfy&display=swap');
+
+
+/* FUENTES */
+$font-title:'Satisfy', cursive;
+$font-text:'Fira Sans', sans-serif;
+/* COLORES */
+$col-A: #DBA39A;
+$col-B: #F0DBDB;
+$col-C: #F5EBE0;
+$col_D: #FEFCF3;
+
+
+/* Custom properties */
+.nav-title{
+    font-family: $font-title;
+}
+.btn-primary{
+    background-color: $col-A;
+    border: none;
+}
+.row {
+    padding: 10px;
+}
+
+.col {
+    margin: 5px;
+}
+
+
+/* Mis preferencias */
+body {
+    background-color: $col-D;
+}
+
+h1, .title {
+    font-family: $font-title;
+}
+
+p {
+    font-family: $font-text;
+}
+

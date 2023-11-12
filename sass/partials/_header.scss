@@ -1,0 +1,17 @@
+.navbar{
+    height: auto;
+    div{
+
+        height: 100%;
+        a{
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+    }
+    z-index: 2;
+}
+.logo{
+    height: 5vh;
+    border-radius: 20PX;
+}
